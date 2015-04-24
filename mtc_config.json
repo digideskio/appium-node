@@ -3,5 +3,5 @@
 	"testDirectory" : "./",
 	"installCommand" : "npm install",
 	"testCommand" : "mocha ios-simple.js",
-	"appName" : "TestApp.app"
+	"appName" : "TestApp.app.zip"
 }
