@@ -25,7 +25,7 @@ describe("android complex", function () {
     var desired = process.env.SAUCE ?
       _.clone(require("./helpers/caps").android18) :
       _.clone(require("./helpers/caps").android19);
-    desired.app = require("./helpers/apps").androidApiDemos;
+    //desired.app = require("./helpers/apps").androidApiDemos;
     if (process.env.SAUCE) {
       desired.name = 'android - complex';
       desired.tags = ['sample'];
