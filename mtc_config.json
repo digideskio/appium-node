@@ -1,8 +1,7 @@
 {
 	"os" : "iOS",
-	"devices": ["moto-x", "Galaxy-s3"],
-	"emulators" : ["5.0.1", "4.4.4" ],
-	"testDirectory" : "sample-code/examples/node",
+	"testDirectory" : "./",
 	"installCommand" : "npm install",
-	"testCommand" : "mocha ios-simple.js"
+	"testCommand" : "mocha ios-complex.js",
+	"appName" : "UICatalog.app"
 }

@@ -18,8 +18,9 @@ describe("ios simple", function () {
     driver = wd.promiseChainRemote(serverConfig);
     require("./helpers/logging").configure(driver);
 
-    var desired = _.clone(require("./helpers/caps").ios81);
-    desired.app = require("./helpers/apps").iosTestApp;
+    var desired = _.clone(require("./helpers/caps").iOSDevice);
+    //var desired = _.clone(require("./helpers/caps").ios81);
+    //desired.app = require("./helpers/apps").iosTestApp;
     if (process.env.SAUCE) {
       desired.name = 'ios - simple';
       desired.tags = ['sample'];
