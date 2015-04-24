@@ -2,6 +2,6 @@
 	"os" : "iOS",
 	"testDirectory" : "./",
 	"installCommand" : "npm install",
-	"testCommand" : "mocha ios-complex.js",
-	"appName" : "UICatalog.app"
+	"testCommand" : "mocha ios-simple.js",
+	"appName" : "TestApp.app"
 }
